@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/oppo/CPH1909/device.mk)
 
 PRODUCT_DEVICE := CPH1909
-PRODUCT_NAME := omni_CPH1909
+PRODUCT_NAME := twrp_CPH1909
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := CPH1909
 PRODUCT_MANUFACTURER := oppo

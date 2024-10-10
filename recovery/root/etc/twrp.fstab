@@ -22,5 +22,5 @@
 /logo            emmc    /dev/block/platform/bootdevice/by-name/logo
 
 #External_storage
-/external_sd     auto    /devices/platform/externdevice*                    flags=voldmanaged=sdcard1:auto
-/usb-otg 	    auto    /devices/platform/mt_usb*                          flags=voldmanaged=usbotg:auto;storage;wipeingui;removable
+/external_sd	auto		/dev/block/mmcblk1p1	/dev/block/mmcblk1		flags=storage;wipeingui;removable;display="External SDcard"
+/usb-otg	auto		/dev/block/sdf1		/dev/block/sdf			flags=display="USB-OTG";storage;wipeingui;removable

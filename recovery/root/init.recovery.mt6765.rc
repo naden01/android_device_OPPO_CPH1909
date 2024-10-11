@@ -4,6 +4,9 @@ on post-fs
     start hwservicemanager
     start keymaster-3-0
     start gatekeeper-1-0
+on fs
+    # USB
+    write /sys/class/power_supply/usb/otg_switch 1
 
 on property:ro.crypto.state=encrypted && property:ro.crypto.type=file
     install_keyring

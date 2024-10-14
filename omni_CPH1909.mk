@@ -17,3 +17,7 @@ PRODUCT_NAME := omni_CPH1909
 PRODUCT_BRAND := OPPO
 PRODUCT_MODEL := CPH1909
 PRODUCT_MANUFACTURER := OPPO
+
+# Forcefully add mtp support (adb is already there)
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp

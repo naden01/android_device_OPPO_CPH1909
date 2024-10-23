@@ -95,6 +95,9 @@ TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
 
+# disable bootloader boot since this device has no fastboot 
+TW_NO_REBOOT_BOOTLOADER := true
+
 # MTP support
 TW_HAS_MTP := true
 

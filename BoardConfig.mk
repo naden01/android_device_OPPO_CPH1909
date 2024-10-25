@@ -91,8 +91,10 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 RECOVERY_SDCARD_ON_DATA := true
-TW_EXCLUDE_DEFAULT_USB_INIT := true
+#TW_EXCLUDE_DEFAULT_USB_INIT := true                         (BOMBOCLAT---- TEST)
 TW_Y_OFFSET := 50
+TW_MTP_DEVICE := OPPO A5s
+# BOARD_USE_CUSTOM_RECOVERY_FONT -- Specify a .ttf file to use as default font (AND THIS)
 TW_H_OFFSET := -50
 
 # disable bootloader boot since this device has no fastboot 
